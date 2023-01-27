@@ -12,6 +12,17 @@ function Pencil(ctx, drawing, canvas) {
 	new DnD(canvas, this);
 
 	// Implémentez ici les 3 fonctions onInteractionStart, onInteractionUpdate et onInteractionEnd
+	this.onInteractionStart = function (dnd) {
+
+	}.bind(this);
+
+	this.onInteractionUpdate = function (dnd) {
+
+	}.bind(this);
+
+	this.onInteractionEnd = function (dnd) {
+
+	}.bind(this);
 };
 
 
