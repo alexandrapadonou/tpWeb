@@ -24,3 +24,9 @@ function Line(startX, startY, thickness, color, endX, endY) {
     this.endX = endX;
     this.endY = endY;
 }
+
+function Ovale(startX, startY, thickness, color, endX, endY) {
+    Shape.call(this, startX, startY, thickness, color);
+    this.endX = endX;
+    this.endY = endY;
+}
